@@ -306,7 +306,83 @@ main{
 }
 
 @media screen and (min-width: 950px){
+    .tam {
+        width: auto;
+        height: 45px;
+    }
+    .style-cat2{
+        grid-template-columns: 5% 70% 25%;
+    }
 
+    body {
+        height: 100vh;
+    }
+
+    main {
+        height: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        article {
+            width: 85%;
+            height: 65%;
+            display: flex;
+            flex-direction: row;
+            border: 3px solid #FBFDFC;
+            border-radius: 35px 35px !important;
+            box-shadow: 10px 10px 20px 0px #E8EDFB;
+
+            .section-1 {
+                width: 45%;
+                height: 100%;
+                border-radius: 35px 35px;
+            }
+
+            .section-summary {
+                width: 55%;
+                height: auto;
+                background-color: transparent;
+
+                .category{
+                    height: 90%;
+                    .reaction {
+                        .style-cat2();
+                        .tam();
+                        .text-reaction {
+                            padding-left: 20px !important;
+                        }
+                    }
+                    .memory {
+                        .style-cat2();
+                        .tam();
+                        .text-memory {
+                            padding-left: 20px !important;
+                        }
+                    }
+                    .verbal {
+                        .style-cat2();
+                        .tam();
+                        .text-verbal {
+                            padding-left: 20px !important;
+                        }
+                    }
+                    .visual {
+                        .style-cat2();
+                        .tam();
+                        .text-visual {
+                            padding-left: 20px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .attribution {
+        text-align: center;
+        height: 5%;
+    }
 }
 
 @media screen and (min-width: 1440px){
