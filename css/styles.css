@@ -324,8 +324,8 @@ main article .section-summary .category button:hover {
     overflow: hidden;
   }
   main article {
-    width: 85%;
-    height: 65%;
+    width: 90%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     border: 3px solid #FBFDFC;
