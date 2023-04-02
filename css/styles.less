@@ -219,6 +219,12 @@ main{
                     font-family: @extrabold;
                     font-size: 18px;
                     margin-bottom: 20px;
+                    transition: all 500ms;
+                }
+                button:hover {
+                    border: 1px solid #6244EC;
+                    background: linear-gradient(179deg, #6542FF 0%, #332EEB 100%);
+                    cursor: pointer;
                 }
             }
         }
@@ -228,4 +234,45 @@ main{
 .attribution{
     width: 100%;
     height: 8%;
+    background-color: #ccc;
+}
+
+// Mobile First
+@media screen and (min-width: 360px){
+    .style-cat{
+        display: grid !important;
+        grid-template-columns: 15% 50% 35%;
+    }
+    .section-summary{
+        .category {
+            .reaction {
+                .style-cat();
+            }
+            .memory {
+                .style-cat();
+            }
+            .verbal {
+                .style-cat();
+            }
+            .visual {
+                .style-cat();
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px){
+
+}
+
+@media screen and (min-width: 760px){
+
+}
+
+@media screen and (min-width: 950px){
+
+}
+
+@media screen and (min-width: 1440px){
+
 }
