@@ -382,3 +382,9 @@ main article .section-summary .category button:hover {
     height: 5%;
   }
 }
+@media screen and (min-width: 1024px) {
+  article {
+    width: 60% !important;
+    height: 65% !important;
+  }
+}
