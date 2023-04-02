@@ -271,3 +271,20 @@ main article .section-summary .category button:hover {
     grid-template-columns: 15% 50% 35%;
   }
 }
+@media screen and (min-width: 480px) {
+  .style-cat {
+    grid-template-columns: 10% 70% 20%;
+  }
+  .section-summary .category .reaction {
+    grid-template-columns: 10% 70% 20%;
+  }
+  .section-summary .category .memory {
+    grid-template-columns: 10% 70% 20%;
+  }
+  .section-summary .category .verbal {
+    grid-template-columns: 10% 70% 20%;
+  }
+  .section-summary .category .visual {
+    grid-template-columns: 10% 70% 20%;
+  }
+}
