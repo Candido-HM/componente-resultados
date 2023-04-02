@@ -273,18 +273,35 @@ main article .section-summary .category button:hover {
 }
 @media screen and (min-width: 480px) {
   .style-cat {
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 5% 70% 20%;
   }
   .section-summary .category .reaction {
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 5% 70% 20%;
   }
   .section-summary .category .memory {
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 5% 70% 20%;
   }
   .section-summary .category .verbal {
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 5% 70% 20%;
   }
   .section-summary .category .visual {
-    grid-template-columns: 10% 70% 20%;
+    grid-template-columns: 5% 70% 20%;
+  }
+}
+@media screen and (min-width: 760px) {
+  .style-cat {
+    grid-template-columns: 5% 82% 15%;
+  }
+  .section-summary .category .reaction {
+    grid-template-columns: 5% 82% 15%;
+  }
+  .section-summary .category .memory {
+    grid-template-columns: 5% 82% 15%;
+  }
+  .section-summary .category .verbal {
+    grid-template-columns: 5% 82% 15%;
+  }
+  .section-summary .category .visual {
+    grid-template-columns: 5% 82% 15%;
   }
 }
