@@ -306,85 +306,67 @@ main article .section-summary .category button:hover {
   }
 }
 @media screen and (min-width: 950px) {
-  .tam {
-    width: auto;
-    height: 45px;
-  }
-  .style-cat2 {
-    grid-template-columns: 5% 70% 25%;
+  .style-cat {
+    height: 40px;
+    grid-template-columns: 15% 60% 25%;
   }
   body {
+    width: 100%;
     height: 100vh;
   }
   main {
-    height: 95%;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
   }
   main article {
-    width: 90%;
-    height: 85%;
+    width: 800px;
+    height: 490px;
     display: flex;
     flex-direction: row;
-    border: 3px solid #FBFDFC;
-    border-radius: 35px 35px !important;
     box-shadow: 10px 10px 20px 0px #E8EDFB;
-  }
-  main article .section-1 {
-    width: 45%;
-    height: 100%;
+    border: 1px solid #E8EDFB;
     border-radius: 35px 35px;
   }
+  main article .section-1 {
+    width: 40%;
+    height: 100%;
+    border-radius: 35px;
+  }
+  main article .section-1 h1 {
+    font-size: 20px;
+  }
+  main article .section-1 .result {
+    width: 200px;
+    height: 200px;
+  }
+  main article .section-1 p {
+    padding: 10px;
+  }
+  main article .section-1 h2 {
+    font-size: 22px;
+  }
   main article .section-summary {
-    width: 55%;
-    height: auto;
+    width: 60%;
+    height: 100%;
     background-color: transparent;
   }
-  main article .section-summary .category {
-    height: 90%;
-  }
   main article .section-summary .category .reaction {
-    grid-template-columns: 5% 70% 25%;
-    width: auto;
-    height: 45px;
-  }
-  main article .section-summary .category .reaction .text-reaction {
-    padding-left: 20px !important;
+    height: 40px;
+    grid-template-columns: 15% 60% 25%;
   }
   main article .section-summary .category .memory {
-    grid-template-columns: 5% 70% 25%;
-    width: auto;
-    height: 45px;
-  }
-  main article .section-summary .category .memory .text-memory {
-    padding-left: 20px !important;
+    height: 40px;
+    grid-template-columns: 15% 60% 25%;
   }
   main article .section-summary .category .verbal {
-    grid-template-columns: 5% 70% 25%;
-    width: auto;
-    height: 45px;
-  }
-  main article .section-summary .category .verbal .text-verbal {
-    padding-left: 20px !important;
+    height: 40px;
+    grid-template-columns: 15% 60% 25%;
   }
   main article .section-summary .category .visual {
-    grid-template-columns: 5% 70% 25%;
-    width: auto;
-    height: 45px;
-  }
-  main article .section-summary .category .visual .text-visual {
-    padding-left: 20px !important;
-  }
-  .attribution {
-    text-align: center;
-    height: 5%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  article {
-    width: 60% !important;
-    height: 65% !important;
+    height: 40px;
+    grid-template-columns: 15% 60% 25%;
   }
 }
