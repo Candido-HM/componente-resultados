@@ -118,7 +118,6 @@ main article .section-summary .category .reaction .img-reaction {
   height: 30px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url('/assets/images/icon-reaction.svg');
 }
 main article .section-summary .category .reaction .text-reaction {
   width: 80px;
@@ -143,7 +142,6 @@ main article .section-summary .category .memory .img-memory {
   height: 30px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url('/assets/images/icon-memory.svg');
 }
 main article .section-summary .category .memory .text-memory {
   width: 80px;
@@ -168,7 +166,6 @@ main article .section-summary .category .verbal .img-verbal {
   height: 30px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url('/assets/images/icon-verbal.svg');
 }
 main article .section-summary .category .verbal .text-verbal {
   width: 80px;
@@ -194,7 +191,6 @@ main article .section-summary .category .visual .img-visual {
   height: 30px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url('/assets/images/icon-visual.svg');
 }
 main article .section-summary .category .visual .text-visual {
   width: 80px;
@@ -210,7 +206,10 @@ main article .section-summary .category .results {
   display: flex;
   align-items: center;
 }
-main article .section-summary .category .results .score {
+main article .section-summary .category .results .score-reaction,
+main article .section-summary .category .results .score-memory,
+main article .section-summary .category .results .score-verbal,
+main article .section-summary .category .results .score-visual {
   font-family: HankenExtraBold;
   font-size: 20px;
   color: #44444E;
@@ -368,5 +367,9 @@ main article .section-summary .category button:hover {
   main article .section-summary .category .visual {
     height: 40px;
     grid-template-columns: 15% 60% 25%;
+  }
+  .attribution {
+    text-align: center;
+    font-size: 25px;
   }
 }
